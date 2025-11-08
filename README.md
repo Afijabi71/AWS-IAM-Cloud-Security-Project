@@ -4,7 +4,7 @@ I completed this project showing the design and deployment of a secure cloud inf
 The environment simulates a realworld enterprise setup with two departments (Deployment and Distribution) each managing its own EC2 instances and governed by IAM policies that enforce the Principle of Least Privilege (PoLP).
 Using a combination of custom IAM policies, groups, and tag-based access control (ABAC), this project ensures that only authorized users can perform specific actions on designated cloud resources.Security visibility and compliance are achieved through AWS CloudTrail and AWS Config, which track all API activity and configuration changes across the infrastructure.
 
-Tools & Concepts
+# Tools & Concepts
 
 -Amazon Web Services (AWS) →Cloud platform used for deployment and management.
 -Amazon EC2 →Virtual servers representing Deployment and Production environments.
@@ -14,7 +14,7 @@ Tools & Concepts
 -Amazon S3→Secure storage for audit and configuration logs.
 -AWS Management Console→Centralized UI for administration and resource control.
 
-Security Concepts
+# Security Concepts
 
 -Principle of Least Privilege (PoLP) →Users only have permissions necessary for their role.
 -Attribute-Based Access Control (ABAC)→Resource access managed through tags like Env=Deployment and Env=Distribution.
