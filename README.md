@@ -5,7 +5,6 @@ The environment simulates a realworld enterprise setup with two departments (Dep
 Using a combination of custom IAM policies, groups, and tag-based access control (ABAC), this project ensures that only authorized users can perform specific actions on designated cloud resources.Security visibility and compliance are achieved through AWS CloudTrail and AWS Config, which track all API activity and configuration changes across the infrastructure.
 
 # Tools & Concepts
-
 -Amazon Web Services (AWS) →Cloud platform used for deployment and management.
 -Amazon EC2 →Virtual servers representing Deployment and Production environments.
 -AWS Identity and Access Management (IAM)→Core service for user, group, and policy control.
