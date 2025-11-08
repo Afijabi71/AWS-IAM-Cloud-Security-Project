@@ -6,9 +6,9 @@ Using a combination of custom IAM policies, groups, and tag-based access control
 
 Tools & Concepts
 
--Amazon Web Services (AWS) →Cloud platform used for deployment and management
--Amazon EC2 →Virtual servers representing Deployment and Production environments
--AWS Identity and Access Management (IAM)→Core service for user, group, and policy control.
+Amazon Web Services (AWS) →Cloud platform used for deployment and management
+Amazon EC2 →Virtual servers representing Deployment and Production environments
+AWS Identity and Access Management (IAM)→Core service for user, group, and policy control.
 -AWS CloudTrail → Logs and monitors API and console activity.
 -AWS Config→ Tracks configuration changes for compliance and governance.
 -Amazon S3→Secure storage for audit and configuration logs.
